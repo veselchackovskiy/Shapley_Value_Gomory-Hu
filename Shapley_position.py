@@ -5,7 +5,7 @@ from math import factorial
 import time
 import random
 
-# Глобальный кэш для максимальных потоков (временно отключим)
+# Глобальный кэш для максимальных потоков
 flow_cache = {}
 
 def build_graph(matrix):
