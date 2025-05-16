@@ -24,7 +24,6 @@ def build_graph(matrix):
     return G, edges
 
 def max_flow_value(G, source, target):
-    # Временно отключили кэширование для проверки
     try:
         flow_value, _ = nx.maximum_flow(G, source, target, capacity='capacity')
         return flow_value
